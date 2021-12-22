@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.table {
+    margin-top: 150px;
+    margin-left: 150px;
+    border: 1px solid #000;
+    text-align: center;
+    background: #fff;
+}
+
+td, th {
+    border: 1px solid #000;
+}
+
+.table:hover {
+    background: #000;
+    color: darkred;
+    transition: .3s;
+}
+
+td:hover, th:hover {
+    border: 1px solid darkred;
+    color: darkred;
+    transition: .3s;
+}
